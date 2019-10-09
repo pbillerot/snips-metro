@@ -1,0 +1,10 @@
+# Bindings for the hermes protocol 
+hermes-python>=0.1
+
+# More dependency goes here.. 
+requests
+configparser
+
+# For dev with vscodium
+pylint
+rope
