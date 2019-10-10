@@ -60,12 +60,13 @@ L'assistant téléchargé téléchargé à partir de la console Snips https://co
 - Copie de mon skill dans ce répertoire
 - Installation du skill
 
+    ```sudo systemctl stop snips-skill-server```
+
     ```sudo -u _snips-skills snips-skill-server install_skills```
 
 ### Contrôle de l'installation
+```sudo systemctl status snips-skill-server.service```
 ```
-(venv) billerot@TPAD:/var/lib/snips/skills/pbillerot.Calculatrice$ sudo systemctl status snips-skill-server.service 
-[sudo] Mot de passe de billerot : 
 ● snips-skill-server.service - Snips Skill Server
    Loaded: loaded (/lib/systemd/system/snips-skill-server.service; enabled; vendor preset: enabled)
    Active: active (running) since Thu 2019-10-10 12:16:55 CEST; 5h 28min ago
@@ -80,4 +81,3 @@ oct. 10 12:16:55 TPAD systemd[1]: Started Snips Skill Server.
 oct. 10 12:16:55 TPAD snips-skill-server[5338]: INFO:snips_skill_server_lib::runner: searching dir for actions: /var/lib/snips/skills/pbillerot.Calculatrice
 oct. 10 12:16:55 TPAD snips-skill-server[5338]: INFO:snips_skill_server_lib::runner: found action "/var/lib/snips/skills/pbillerot.Calculatrice/action-Calculatrice.py"
 ```
-
