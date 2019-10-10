@@ -17,6 +17,6 @@ if [ ! -d "$VENV" ]; then
     virtualenv -p $PYTHON $VENV
 fi
 
-source $VENV/bin/activate
+. $VENV/bin/activate
 
 pip3 install -r requirements.txt
