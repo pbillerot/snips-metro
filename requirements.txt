@@ -6,5 +6,4 @@ requests
 configparser
 
 # For dev with vscodium
-pylint
-rope
+# pip install requests configparser hermes-python pylint rope
