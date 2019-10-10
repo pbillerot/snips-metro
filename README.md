@@ -1,6 +1,11 @@
 # snips-metro
 Assistant Snips en Python3 pour Ubuntu
 
+## Abandon du projet 
+- trop de problèmes
+- documentation défaillante
+- a cassé pulseaudio
+
 ## Installation de Snips sur Ubuntu 18.04
 
 ### Dépendances
